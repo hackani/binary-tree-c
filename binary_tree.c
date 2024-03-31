@@ -76,7 +76,9 @@ int main(){
 
         root = insertNode(root, value);
 
-        printf("Want to enter new node : ");
+        printf("Press 0 to exit.\n");
+        printf("Press 1 or any other number to add more values.\n");
+        printf("Want to enter new values : ");
         scanf("%d",&choice);
     }while(choice);
 
